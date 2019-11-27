@@ -1,7 +1,5 @@
 package com.company;
 
-import java.math.BigInteger;
-
 public class Main {
 
     public static void main(String[] args) {
@@ -34,6 +32,6 @@ public class Main {
                 product *= Character.getNumericValue(c);
             if(product > max) max = product;
         }
-        System.out.println(max);
+        System.out.println(max); // Answer : 23514624000
     }
 }
